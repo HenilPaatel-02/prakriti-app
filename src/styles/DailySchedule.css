@@ -1,0 +1,116 @@
+/* 🌿 Page Wrapper */
+.schedule-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 20px;
+  transition: background 0.6s ease;
+}
+
+/* 📦 Main Card */
+.schedule-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px 50px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
+/* 🧘‍♀️ Headings */
+.schedule-heading {
+  font-size: 2rem;
+  color: #2f855a;
+  margin-bottom: 10px;
+}
+
+.schedule-subtext {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* 🕒 Grid Layout */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* 🕊️ Sections */
+.schedule-section {
+  background: #f9fff9;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #e5e5e5;
+  transition: all 0.3s ease;
+}
+
+.schedule-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-section h3 {
+  margin-bottom: 8px;
+  color: #2b6cb0;
+  font-size: 1.2rem;
+}
+
+.schedule-section p {
+  color: #444;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* ☀️ Button */
+.schedule-btn {
+  margin-top: 25px;
+  background: linear-gradient(135deg, #48bb78, #38a169);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.schedule-btn:hover {
+  background: linear-gradient(135deg, #2f855a, #276749);
+  transform: scale(1.05);
+}
+
+/* ✨ Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .schedule-card {
+    padding: 25px 20px;
+  }
+  .schedule-heading {
+    font-size: 1.6rem;
+  }
+  .schedule-grid {
+    gap: 15px;
+  }
+  .schedule-btn {
+    width: 100%;
+  }
+}

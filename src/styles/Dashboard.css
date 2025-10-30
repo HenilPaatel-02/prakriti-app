@@ -1,0 +1,84 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e6ffe6 0%, #fffbea 100%);
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  color: #2b6b4f;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.dashboard-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn:hover {
+  background-color: #2e7d32;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-content {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: auto;
+  max-width: 900px;
+  text-align: left;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Smooth page transition */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .dashboard-content {
+    padding: 20px;
+  }
+
+  .nav-btn {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+
+  .dashboard-title {
+    font-size: 1.6rem;
+  }
+}

@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 🌿 Prakriti App – Ayurvedic Prakriti Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📖 Description
+AyurHealth is a modern React-based web application designed to analyze an individual’s Prakriti (body constitution) based on Ayurvedic principles — Vata, Pitta, and Kapha.
+It provides personalized health insights, recommendations, and allows users to store and view their profiles conveniently.
 
-## Available Scripts
+This app promotes self-awareness and helps users maintain a healthy balance between body and mind using traditional Ayurveda concepts combined with modern web technology.
 
-In the project directory, you can run:
+⚙️ Installation Steps
 
-### `npm start`
+Follow these steps to set up the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 1️⃣ Clone the repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/HenilPaatel-02/prakriti-app
 
-### `npm test`
+# 2️⃣ Navigate into the project directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd prakriti-app
 
-### `npm run build`
+# 3️⃣ Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 4️⃣ Start the development server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+▶️ How to Run the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+After running npm start, open your browser and go to:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👉 http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You’ll see the AyurHealth home screen.
+From there, you can navigate to the Dashboard, User Profile, or Prakriti Analysis sections.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+💡 Technologies Used
 
-## Learn More
+⚛️ React.js – Frontend framework
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💅 CSS – Custom styling and layouts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧠 JavaScript (ES6+) – Logic and interactivity
 
-### Code Splitting
+💾 LocalStorage – Save user profiles and Prakriti data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📂 React Router – Page navigation
 
-### Analyzing the Bundle Size
+✨ Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Identify your Prakriti type (Vata, Pitta, Kapha)
+✅ Save and view personalized user profiles
+✅ Clean, mobile-friendly UI with modern gradient themes
+✅ Dashboard with follow-up and note management
+✅ Smooth navigation between Home, Dashboard, and Profile
 
-### Making a Progressive Web App
+## 🖼️ Project Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="center">
+  <img src="./public/screenshots/homepage.png" width="600" alt="Home Page Screenshot">
+</p>
 
-### Advanced Configuration
+<p align="center">
+  <img src="./public/screenshots/dashboard.png" width="600" alt="Dashboard Screenshot">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center">
+  <img src="./public/screenshots/prakritiquiz.png" width="600" alt="Dashboard Screenshot">
+</p>
 
-### Deployment
+<p align="center">
+  <img src="./public/screenshots/dietchart.png" width="600" alt="Dashboard Screenshot">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+  <img src="./public/screenshots/dailyschule.png" width="600" alt="Dashboard Screenshot">
+</p>
 
-### `npm run build` fails to minify
+<p align="center">
+  <img src="./public/screenshots/followup.png" width="600" alt="Dashboard Screenshot">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <img src="./public/screenshots/adminpanel.png" width="600" alt="Dashboard Screenshot">
+</p>
+
+👨‍💻 Author
+
+Henil R. Patel
+📧 [22amtics083@gmail.com]
+
+📜 License
+
+This project is open-source and available under the MIT License.
